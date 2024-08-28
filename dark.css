@@ -1,0 +1,73 @@
+.container{
+
+    padding: 20px;
+    /* border : 1px solid black; */
+    background-color : black;
+    --my-var : white;
+    min-height: 100vh;
+
+}
+
+:root{
+
+    --primary-color : #222;
+    --secondary-color : #222;
+    --box-color : white;
+    --card-background-color : #fff;
+    --background-color : #eee;
+}
+
+.dark{
+    --primary-color : #fff;
+    --secondary-color : #ddd;
+    --card-background-color : #333;
+    --background-color : #eee; 
+}
+
+.box{
+
+    padding : 20px;
+    border-radius: 10px;
+    background-color: var( --card-background-color);
+    margin: 30px;
+    margin-block : 20px;
+}
+h2{ 
+    text-align: center;
+    margin-top: 40px;
+    color: var(--my-var);
+}
+h3{
+
+    color: var(--primary-color);
+}
+p{
+    color : var(--secondary-color);
+}
+
+.butt{
+
+        position : absolute; /* Position the button absolutely */
+        top: 20px; /* Position from the top */
+        left: 50%; /* Position from the left */
+        transform: translateX(-50%); /* Center the button horizontally */
+        padding: 10px 20px; /* Add some padding for a better look */
+        background-color: #444; /* Background color */
+        color: white; /* Text color */
+        border: none; /* Remove default border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Cursor style on hover */
+        transition: background-color 0.3s; /* Smooth transition for hover effect */
+        margin-bottom: 30px;
+    }
+    
+    .butt:hover {
+        background-color: #666; /* Change background color on hover */
+    }
+    
+    
+
+
+
+
+
